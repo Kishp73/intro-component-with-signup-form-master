@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <main class="main_style">
+    <div class="presentation_container">
+      <h1 class="h1_style">Learn to code by watching others</h1>
+
+      <p class="paragraph_Style">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>
+    </div>
+    
+    <div class="inputs_container">
+      <div class="try_container">
+
+        <h2><span>Try it free 7 days</span> then $20/mo. thereafter</h2>
+
+      </div>  
+      
+      <div class="form_container">
+
+        <form class="form_style" action="#">
+          <div class="input_container">
+
+            <input class="input_style" type="text" name="first_name" id="first_name" placeholder="First Name">
+            <span id="error1" class="error_span">First Name cannot be empty</span>
+
+          </div>
+
+          <div class="input_container">
+
+            <input class="input_style" type="text" name="last_name" id="last_name" placeholder="Last Name"> 
+            <span id="error2" class="error_span">Last Name cannot be empty</span>
+
+          </div>
+
+          <div class="input_container">
+            
+            <input class="input_style" type="email" name="email_address" id="email_address" placeholder="Email Address">
+            <span id="error3" class="error_span">Looks like this is not an email</span>
+
+          </div>
+
+          <div class="input_container">
+
+            <input class="input_style" type="password" name="password" id="password" placeholder="Password">
+            <span id="error4" class="error_span">Password cannot be empty</span>
+
+          </div>
+
+          <input id="button" class="button_style" type="button" value="Claim your free trial">
+
+        </form>
+
+        <p class="term_style">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </div>
+    </div>
+  </main>
+  <footer style="display: none;">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">P.M. Juan</a>.
+    </p>
+  </footer>
+  <script src="src/main.js"></script>
+</body>
+</html>
